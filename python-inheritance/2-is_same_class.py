@@ -1,0 +1,1 @@
+#!/usr/bin/python3""" File is 2-is_same_class.py"""def is_same_class(obj, a_class):    """Define if a obj is instance of class"""    if obj is None:        return a_class is None    elif obj is True:        return a_class is bool    elif obj is False:        return a_class is bool    else:        return isinstance(obj, a_class)
