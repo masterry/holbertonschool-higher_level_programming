@@ -1,0 +1,1 @@
+#!/usr/bin/python3"""Defines function that returns data structure"""import json"""loads() takes a string and load() takes a file object"""def from_json_string(my_str):    """Function returns object from JSON string    Args:        my_str: JSON string    Return:        Returns python object    """    return json.loads(my_str)
